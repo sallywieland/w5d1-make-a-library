@@ -3,7 +3,7 @@
 (function () {
     'use strict' // adds extra error checking
 
-    var one = function(selector) { 
+    var one = function(selector) {
     return document.querySelector(selector)
     }
     var all = function(selectors) {
@@ -46,7 +46,7 @@
         .then(success)
     }
 
-    window.modom = {
+    window.md = {
         one: one,
         all: all,
         remove: remove,

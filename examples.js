@@ -2,41 +2,41 @@
 
 // EXPLORER MODE
 // one()
-console.log(modom.one('div'))
+console.log(md.one('div'))
 
 // all()
-console.log(modom.all('div'))
+console.log(md.all('div'))
 
 // remove()
-console.log(modom.remove('h4'))
+console.log(md.remove('h4'))
 
 // addClass()
-console.log(modom.addClass('h4', 'red'))
+console.log(md.addClass('h4', 'red'))
 
 // removeClass()
-console.log(modom.removeClass('h4', 'red'))
+console.log(md.removeClass('h4', 'red'))
 
 // hasClass()
-console.log('div class = container-fluid', modom.hasClass('div', 'container-fluid'))
+console.log('div class = container-fluid', md.hasClass('div', 'container-fluid'))
 
 // getAttr()
-console.log(modom.getAttr('div', 'class'))
+console.log(md.getAttr('div', 'class'))
 
 // setAttr()
-console.log(modom.setAttr('h4', 'class', 'red'))
+console.log(md.setAttr('h4', 'class', 'red'))
 
 // setHTML()
-console.log(modom.setHTML('h1', 'hello'))
+console.log(md.setHTML('h1', 'hello'))
 
 // getHTML()
-console.log(modom.getHTML('h4'))
+console.log(md.getHTML('h4'))
 
 // ADVENTURER MODE
 
 // getProp()
-console.log(modom.getProp('.nav-sidebar', 'innerHTML'))
+console.log(md.getProp('.nav-sidebar', 'innerHTML'))
 
 // ajax()
-modom.ajax('http://swapi.co/api/', function(data) {
+md.ajax('http://swapi.co/api/', function(data) {
     console.log(data)
 })
